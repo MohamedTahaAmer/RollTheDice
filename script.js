@@ -12,7 +12,7 @@ let activePlayer,
   acumelatedScore,
   currentScore,
   authenticated = false;
-const max = 10; // you can but any number here
+const max = 100; // you can but any number here
 
 function newGame() {
   if (authenticated) {
